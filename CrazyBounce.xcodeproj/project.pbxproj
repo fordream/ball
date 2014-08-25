@@ -7,12 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D072BE3C1976A0C600C58BC8 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = D072BE3B1976A0C600C58BC8 /* Data.swift */; };
 		D0A9DACE197473B100865C2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A9DACD197473B100865C2D /* AppDelegate.swift */; };
 		D0A9DAD1197473B100865C2D /* CrazyBounce.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D0A9DACF197473B100865C2D /* CrazyBounce.xcdatamodeld */; };
 		D0A9DAD3197473B100865C2D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A9DAD2197473B100865C2D /* ViewController.swift */; };
-		D0A9DAD6197473B100865C2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0A9DAD4197473B100865C2D /* Main.storyboard */; };
-		D0A9DAD8197473B100865C2D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0A9DAD7197473B100865C2D /* Images.xcassets */; };
 		D0A9DAE4197473B100865C2D /* CrazyBounceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A9DAE3197473B100865C2D /* CrazyBounceTests.swift */; };
+		D0A9DAEE197473E300865C2D /* Ball.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A9DAED197473E300865C2D /* Ball.swift */; };
+		D0A9DAF21974743000865C2D /* Bar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A9DAF11974743000865C2D /* Bar.swift */; };
+		D0A9DAF81974746A00865C2D /* GameMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A9DAF51974746A00865C2D /* GameMenuController.swift */; };
+		D0A9DAF91974746A00865C2D /* GameFrameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A9DAF61974746A00865C2D /* GameFrameController.swift */; };
+		D0A9DAFA1974746A00865C2D /* GameOverController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A9DAF71974746A00865C2D /* GameOverController.swift */; };
+		D0A9DAFC197474F900865C2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0A9DAFB197474F900865C2D /* Main.storyboard */; };
+		D0A9DAFE1974751F00865C2D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0A9DAFD1974751F00865C2D /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +32,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D072BE3B1976A0C600C58BC8 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		D0A9DAC8197473B100865C2D /* CrazyBounce.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrazyBounce.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0A9DACC197473B100865C2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D0A9DACD197473B100865C2D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0A9DAD0197473B100865C2D /* CrazyBounce.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CrazyBounce.xcdatamodel; sourceTree = "<group>"; };
 		D0A9DAD2197473B100865C2D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D0A9DAD5197473B100865C2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D0A9DAD7197473B100865C2D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D0A9DADD197473B100865C2D /* CrazyBounceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrazyBounceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0A9DAE2197473B100865C2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D0A9DAE3197473B100865C2D /* CrazyBounceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrazyBounceTests.swift; sourceTree = "<group>"; };
+		D0A9DAED197473E300865C2D /* Ball.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ball.swift; sourceTree = "<group>"; };
+		D0A9DAF11974743000865C2D /* Bar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bar.swift; sourceTree = "<group>"; };
+		D0A9DAF51974746A00865C2D /* GameMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameMenuController.swift; sourceTree = "<group>"; };
+		D0A9DAF61974746A00865C2D /* GameFrameController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameFrameController.swift; sourceTree = "<group>"; };
+		D0A9DAF71974746A00865C2D /* GameOverController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverController.swift; sourceTree = "<group>"; };
+		D0A9DAFB197474F900865C2D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		D0A9DAFD1974751F00865C2D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D072BE3D1976A0F700C58BC8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D0A9DACF197473B100865C2D /* CrazyBounce.xcdatamodeld */,
+				D072BE3B1976A0C600C58BC8 /* Data.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		D072BE3E1976A10300C58BC8 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D0A9DAD2197473B100865C2D /* ViewController.swift */,
+				D0A9DAFB197474F900865C2D /* Main.storyboard */,
+				D0A9DAF51974746A00865C2D /* GameMenuController.swift */,
+				D0A9DAF61974746A00865C2D /* GameFrameController.swift */,
+				D0A9DAF71974746A00865C2D /* GameOverController.swift */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
 		D0A9DABF197473B100865C2D = {
 			isa = PBXGroup;
 			children = (
@@ -77,11 +110,12 @@
 		D0A9DACA197473B100865C2D /* CrazyBounce */ = {
 			isa = PBXGroup;
 			children = (
+				D072BE3E1976A10300C58BC8 /* ViewController */,
+				D072BE3D1976A0F700C58BC8 /* Model */,
+				D0A9DAFD1974751F00865C2D /* Images.xcassets */,
 				D0A9DACD197473B100865C2D /* AppDelegate.swift */,
-				D0A9DAD2197473B100865C2D /* ViewController.swift */,
-				D0A9DAD4197473B100865C2D /* Main.storyboard */,
-				D0A9DAD7197473B100865C2D /* Images.xcassets */,
-				D0A9DACF197473B100865C2D /* CrazyBounce.xcdatamodeld */,
+				D0A9DAED197473E300865C2D /* Ball.swift */,
+				D0A9DAF11974743000865C2D /* Bar.swift */,
 				D0A9DACB197473B100865C2D /* Supporting Files */,
 			);
 			path = CrazyBounce;
@@ -161,6 +195,7 @@
 				TargetAttributes = {
 					D0A9DAC7197473B100865C2D = {
 						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = KNTXK6TU24;
 					};
 					D0A9DADC197473B100865C2D = {
 						CreatedOnToolsVersion = 6.0;
@@ -192,8 +227,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0A9DAD6197473B100865C2D /* Main.storyboard in Resources */,
-				D0A9DAD8197473B100865C2D /* Images.xcassets in Resources */,
+				D0A9DAFC197474F900865C2D /* Main.storyboard in Resources */,
+				D0A9DAFE1974751F00865C2D /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,8 +246,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0A9DAF81974746A00865C2D /* GameMenuController.swift in Sources */,
+				D0A9DAF91974746A00865C2D /* GameFrameController.swift in Sources */,
+				D0A9DAF21974743000865C2D /* Bar.swift in Sources */,
+				D0A9DAEE197473E300865C2D /* Ball.swift in Sources */,
 				D0A9DAD3197473B100865C2D /* ViewController.swift in Sources */,
+				D0A9DAFA1974746A00865C2D /* GameOverController.swift in Sources */,
 				D0A9DACE197473B100865C2D /* AppDelegate.swift in Sources */,
+				D072BE3C1976A0C600C58BC8 /* Data.swift in Sources */,
 				D0A9DAD1197473B100865C2D /* CrazyBounce.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -234,17 +275,6 @@
 			targetProxy = D0A9DADE197473B100865C2D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		D0A9DAD4197473B100865C2D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D0A9DAD5197473B100865C2D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		D0A9DAE5197473B100865C2D /* Debug */ = {
@@ -329,9 +359,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Du Chengyao (47BH799SAK)";
 				INFOPLIST_FILE = CrazyBounce/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "548F59CE-CA19-49D9-8DC5-049673439AD4";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -340,9 +375,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Du Chengyao (47BH799SAK)";
 				INFOPLIST_FILE = CrazyBounce/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "548F59CE-CA19-49D9-8DC5-049673439AD4";
 			};
 			name = Release;
 		};
@@ -399,6 +438,7 @@
 				D0A9DAE9197473B100865C2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D0A9DAEA197473B100865C2D /* Build configuration list for PBXNativeTarget "CrazyBounceTests" */ = {
 			isa = XCConfigurationList;
@@ -407,6 +447,7 @@
 				D0A9DAEC197473B100865C2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
